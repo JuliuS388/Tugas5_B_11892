@@ -4,8 +4,7 @@ import pickle
 from PIL import Image
 import os
 
-model_directory = r'C:\Users\LENOVO LEGION\Videos\Tugas5_B_11892'
-model_path = os.path.join(model_directory, r'best_model.pkl')
+model_path = r'best_model.pkl'
 
 if os.path.exists(model_path):
     try:
